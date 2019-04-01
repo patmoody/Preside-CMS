@@ -55,7 +55,6 @@ component {
 				context.payload = payload;
 			}
 
-			$announceInterception( "onGetEmailContextPayload", context );
 			payload = context.payload;
 		}
 

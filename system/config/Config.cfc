@@ -128,7 +128,6 @@ component {
 		interceptorSettings.customInterceptionPoints.append( "onPresideRedirectDomains"              );
 		interceptorSettings.customInterceptionPoints.append( "preRoutePresideSESRequest"             );
 		interceptorSettings.customInterceptionPoints.append( "postRoutePresideSESRequest"            );
-		interceptorSettings.customInterceptionPoints.append( "onGetEmailContextPayload"              );
 
 		cacheBox = {
 			configFile = _discoverCacheboxConfigurator()
