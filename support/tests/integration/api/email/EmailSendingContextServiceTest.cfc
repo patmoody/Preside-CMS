@@ -73,7 +73,6 @@ component extends="resources.HelperObjects.PresideBddTestCase" {
 		) );
 
 		service.$( "$getPresideObjectService", mockPresideObjectService );
-		service.$( "$announceInterception" );
 
 		return service;
 	}
